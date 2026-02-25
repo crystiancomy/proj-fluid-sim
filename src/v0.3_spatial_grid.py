@@ -160,5 +160,5 @@ while gui.running:
         if gui.event.key == reset_btn:
             init()
     update()
-    gui.circles(position.to_numpy(), radius=3, color=4000)
+    gui.circles(position.to_numpy(), radius=2, color=4000)
     gui.show()
